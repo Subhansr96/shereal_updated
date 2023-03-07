@@ -1003,15 +1003,17 @@ footer p {
     border-radius: 35px !important;
 }
 .blog-box{
-	padding: 0 20px;
+	padding:0 20px 50px 20px;
+	width: 33%;
 }
 .blog-box img{
 	width: 100%;
 }
 .blogs-main{
 	/* padding:80px 0; */
-	display: grid;
-	grid-template-columns: auto auto auto;
+	display: flex;
+	/* grid-template-columns: auto auto auto; */
+	flex-wrap: wrap;
 }
 .category ul{
 	display: flex;

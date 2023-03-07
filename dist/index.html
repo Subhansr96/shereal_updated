@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../img/logo_fav.svg" />
+    <title>Shereal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="time.css">
+    <link rel="stylesheet" href="button.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    
+  <script type="module" crossorigin src="/assets/main-60e5b8a1.js"></script>
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <header class="hero-image">
+        <nav class="">
+          <div class="">
+            <div id="" class="col-md-12 new-nav">
+              <div>
+                <a href="index.html"
+                  ><img src="images/logo.png" alt="SheReal"
+                /></a>
+              </div>
+              
+                <!-- Static navbar -->
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button
+                        type="button"
+                        class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#navbar"
+                        aria-expanded="false"
+                        aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                          <a
+                            href="#"
+                            class="dropdown-toggle"
+                            data-toggle="dropdown"
+                            role="button"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            >Home <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Team</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a
+                            href="#"
+                            class="dropdown-toggle"
+                            data-toggle="dropdown"
+                            role="button"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            >Features <span class="caret"></span
+                          ></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="social/social.html">Professional Community</a></li>
+                            <!-- <li><a href="#">Shelabs</a></li> -->
+                            <li><a href="metaverse/metaverse.html">Sheverse</a></li>
+                            <li><a href="nft/nft.html">NFT Marketplace</a></li>
+                            <li><a href="tokens/tokens.html">Token</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a
+                            href="#"
+                            class="dropdown-toggle"
+                            data-toggle="dropdown"
+                            role="button"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            >Media <span class="caret"></span
+                          ></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="blog/blog.html">Blogs</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCkTJApfpIshOSa9-Ua7UKxw" target="_blank">Videos</a></li>
+                            <li><a href="#">Magazine/Newsletter</a></li>
+                          </ul>
+                        </li>
+                        <li class="active"><a href="#">
+                          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content popup-main">
+                                <div class="modal-header">
+                                  <button
+                                    type="button"
+                                    class="close"
+                                    data-dismiss="modal"
+                                    aria-label="Close"
+                                  >
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                  <h5 class="modal-title" id="exampleModalLabel">
+                                    Join the Waitlist
+                                  </h5>
+                                  <p>
+                                    Start your own NFT collection with us - Buy, sell, hold and
+                                    mint your own NFTs!
+                                  </p>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="form-group">
+                                      <input
+                                        class="form-control"
+                                        type="text"
+                                        placeholder="Your Name"
+                                        style="height: 60px"
+                                        id="name-input"
+                                      />
+                                      <input
+                                        class="form-control"
+                                        type="text"
+                                        placeholder="Professional Designation"
+                                        style="height: 60px"
+                                        id="designation-input"
+                                      />
+                                    </div>
+                                    <div class="form-group">
+                                      <input
+                                        class="form-control"
+                                        type="text"
+                                        placeholder="Contact Number"
+                                        style="height: 60px"
+                                        id="contact-input"
+                                      />
+                                      <input
+                                        class="form-control"
+                                        type="text"
+                                        placeholder="Your Email Address"
+                                        style="height: 60px"
+                                        id="email-input"
+                                      />
+                                    </div>
+                                    <div class="form-group">
+                                      <div class="form-group-text">
+                                        Are you ready to become the best version of yourself.
+                                      </div>
+                
+                                      <div>
+                                      </div>
+                                    </div>
+                                    <div class="radio-btn-inputs">
+                                      <div class="radio-btn-text">
+                                        <input
+                                          class="form-check-input"
+                                          type="radio"
+                                          name="inlineRadioOptions"
+                                          id="inlineRadio1"
+                                          value="option1"
+                                        />
+                                        <label class="form-check-label" for="inlineRadio1"
+                                          >Yes</label
+                                        >
+                                      </div>
+                
+                                      <div class="radio-btn-text">
+                                        <input
+                                          class="form-check-input"
+                                          type="radio"
+                                          name="inlineRadioOptions"
+                                          id="inlineRadio2"
+                                          value="option2"
+                                        />
+                                        <label class="form-check-label" for="inlineRadio2"
+                                          >Absolutely!</label
+                                        >
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <div
+                                    class="button animate__animated animate__headShake animate__repeat-3 3 animate__delay-3s 3s"
+                                  >
+                                    <button
+                                      type="button"
+                                      class="btn btn-secondary button_inner q popup-btn"
+                                      data-dismiss="modal"
+                                      id="submit-btn"
+                                    >
+                                      <span class="t" style="top: 0px"
+                                        >Join the waitlist<i
+                                          class="fa fa-solid fa-angle-right fa-lg"
+                                          style="padding-left: 5px"
+                                        ></i
+                                      ></span>
+                                      <span>
+                                        <i class="tick ion-checkmark-round"></i>
+                                      </span>
+                                      <div class="b_l_quad">
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                        <div class="button_spots"></div>
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <divclass="button animate__animated animate__headShake animate__repeat-3 3 animate__delay-3s 3s>
+                          <label for="button">
+                            <div class="q" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
+                              <i class="l ion-log-in"></i>
+                              <span class="t" style="
+                              cursor: pointer;
+                          ">Join Us
+                                <i class="fa fa-solid fa-angle-right fa-lg"></i>
+                              </span>
+                              <span>
+                                <i class="tick ion-checkmark-round"></i>
+                              </span>
+                            </div>
+                          </label>
+                        </div>
+                        </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                  </div>
+                  <!--/.container-fluid -->
+                </nav>
+              
+            </div>
+          </div>
+        </nav>
+        <div class="row banner">
+          <div class="col-md-6">
+            <h1>Unveiling Largest Women Metaverse Platform</h1>
+            <p>India’s first-ever all women professional network application.</p>
+            <!-- Button -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content popup-main">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Join the Waitlist
+                    </h5>
+                    <p>
+                      Start your own NFT collection with us - Buy, sell, hold and
+                      mint your own NFTs!
+                    </p>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Your Name"
+                          style="height: 60px"
+                        />
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Professional Designation"
+                          style="height: 60px"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Contact Number"
+                          style="height: 60px"
+                        />
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Your Email Address"
+                          style="height: 60px"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <!-- <h2>ARE YOU READY TO BECOME THE BEST VERSION OF YOURSELF</h2> -->
+                        <div class="form-group-text">
+                          Are you ready to become the best version of yourself.
+                        </div>
+  
+                        <div>
+                          <!-- <input type="radio" id="html" name="fav_language" value="HTML">
+                                      <label for="html">HTML</label><br>
+                                      <input type="radio" id="css" name="fav_language" value="CSS">
+                                      <label for="css">CSS</label><br> -->
+                        </div>
+                      </div>
+                      <div class="radio-btn-inputs">
+                        <div class="radio-btn-text">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="inlineRadio1"
+                            value="option1"
+                          />
+                          <label class="form-check-label" for="inlineRadio1"
+                            >Yes</label
+                          >
+                        </div>
+  
+                        <div class="radio-btn-text">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="inlineRadio2"
+                            value="option2"
+                          />
+                          <label class="form-check-label" for="inlineRadio2"
+                            >Absolutely!</label
+                          >
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <div
+                      class="button animate__animated animate__headShake animate__repeat-3 3 animate__delay-3s 3s"
+                    >
+                      <button
+                        type="button"
+                        class="btn btn-secondary button_inner q popup-btn"
+                        data-dismiss="modal"
+                        id="submit-btn"
+                      >
+                        <span class="t" style="top: 0px"
+                          >Join the waitlist<i
+                            class="fa fa-solid fa-angle-right fa-lg"
+                            style="padding-left: 5px"
+                          ></i
+                        ></span>
+                        <span>
+                          <i class="tick ion-checkmark-round"></i>
+                        </span>
+                        <div class="b_l_quad">
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                          <div class="button_spots"></div>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div
+              class="button animate__animated animate__headShake animate__repeat-3 3 animate__delay-3s 3s"
+            >
+              <label for="button">
+                <div
+                  class="button_inner q"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  data-whatever="@getbootstrap"
+                >
+                  <i class="l ion-log-in"></i>
+                  <span class="t"
+                    >Join the Waitlist
+                    <i class="fa fa-solid fa-angle-right fa-lg"></i
+                  ></span>
+                  <span>
+                    <i class="tick ion-checkmark-round"></i>
+                  </span>
+                  <div class="b_l_quad">
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <!-- Button close -->
+            <div class="numbers">
+              <ul>
+                <li>
+                  <h1>45K+</h1>
+                  <p>Women</p>
+                </li>
+                <li>
+                  <h1>6K+</h1>
+                  <p>Influeners</p>
+                </li>
+                <li>
+                  <h1>48K+</h1>
+                  <p>Events</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="col-md-6 slides">
+          </div>
+        </div>
+      </header>
+    <div id="div1" class="content">
+      <section class="content boxes">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 sec1">
+            <div class="row">
+              <div class="upper_box">
+                <div class="row">
+                  <div class="col-md-6 col-xs-12 col-sm-6">
+                    <a href="social/social.html">
+                      <div class="box1" data-aos="fade-right">
+                        <img src="images/box1.png" alt="Social" />
+                        <h1>Social</h1>
+                        <p>
+                          We aim to build an all-women professional community...
+                        </p>
+                      </div>
+                    </a>
+                    <a href="metaverse/metaverse.html">
+                      <div class="box2" data-aos="fade-right">
+                        <img src="images/box3.png" alt="Social" />
+                        <h1>Metaverse</h1>
+                        <p>The SheReal metaverse is an online 3D universe...</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-6 col-xs-12 col-sm-6">
+                    <a href="nft/nft.html">
+                      <div class="box3" data-aos="fade-left">
+                        <img src="images/box2.png" alt="Social" />
+                        <h1>NFTs</h1>
+                        <p>We are set to become the first-ever only women...</p>
+                      </div>
+                    </a>
+                    <a href="tokens/tokens.html">
+                      <div class="box4" data-aos="fade-left">
+                        <img src="images/box4.png" alt="Social" />
+                        <h1>Tokens</h1>
+                        <p>SheReal Tokens will be called SHRL Tokens and...</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 sec2">
+            <h1 data-aos="fade-down">#First Ever</h1>
+            <h1 data-aos="fade-down">
+              All-<span style="color: #ba2a78">Women</span> Based web 3.0 Platform
+            </h1>
+            <p data-aos="fade-down">
+              SheReal is India’s first-ever professional networking community for
+              women enthusiasts from diversified backgrounds looking forward to
+              building long-term relations and channelising their passion &
+              interest.
+            </p>
+            <!-- Button -->
+            <div class="button" data-aos="fade-down">
+              <label for="button">
+                <div
+                  class="button_inner q"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  data-whatever="@getbootstrap"
+                >
+                  <i class="l ion-log-in"></i>
+                  <span class="t"
+                    >Join the Waitlist
+                    <i class="fa fa-solid fa-angle-right fa-lg"></i
+                  ></span>
+                  <span>
+                    <i class="tick ion-checkmark-round"></i>
+                  </span>
+                  <div class="b_l_quad">
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <!-- Button close -->
+          </div>
+        </div>
+      </section>
+      <section class="sec3">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 data-aos="fade-down">
+              About <span style="color: #ba2a78">SheReal</span>
+            </h1>
+            <p data-aos="fade-down">
+              SheReal is India’s first-ever professional networking community for
+              women enthusiasts from diversified backgrounds looking forward to
+              building long-term relations and channelising their passion and
+              interest. Unlike other platforms, SheReal is a women-centric
+              platform focused on making women leaders through holistic growth.
+            </p>
+            <!-- Button -->
+            <div class="button" data-aos="fade-down">
+              <label for="button">
+                <div
+                  class="button_inner q"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  data-whatever="@getbootstrap"
+                >
+                  <i class="l ion-log-in"></i>
+                  <span class="t"
+                    >Join the Waitlist
+                    <i class="fa fa-solid fa-angle-right fa-lg"></i
+                  ></span>
+                  <span>
+                    <i class="tick ion-checkmark-round"></i>
+                  </span>
+                  <div class="b_l_quad">
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <!-- Button close -->
+          </div>
+        </div>
+      </section>
+      <section class="sec4">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 data-aos="fade-down">
+              <span style="color: #ba2a78">#</span>Top NFT Collection
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div
+              id="owl-carousel"
+              class="container owl-carousel owl-theme contain"
+            >
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img1.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img2.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img3.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img1.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img2.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec5">
+        <div class="row">
+          <div class="col-md-12" data-aos="zoom-in">
+            <h1>Start your own NFT collection with us</h1>
+            <p>Buy, sell, hold and mint your own NFTs!</p>
+            <!-- Button -->
+            <div class="button">
+              <label for="button">
+                <div
+                  class="button_inner q"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  data-whatever="@getbootstrap"
+                >
+                  <i class="l ion-log-in"></i>
+                  <span class="t"
+                    >Join the Waitlist
+                    <i class="fa fa-solid fa-angle-right fa-lg"></i
+                  ></span>
+                  <span>
+                    <i class="tick ion-checkmark-round"></i>
+                  </span>
+                  <div class="b_l_quad">
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                    <div class="button_spots"></div>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <!-- Button close -->
+          </div>
+        </div>
+      </section>
+      <section class="sec6">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 data-aos="fade-down">Upcoming NFT Collection</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div
+              id="owl-carousel2"
+              class="container owl-carousel owl-theme contain"
+            >
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img1.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img2.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img3.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img1.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img2.png" alt="" />
+              </div>
+              <div class="item" data-aos="fade-down">
+                <img src="images/collection-img3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec7">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 data-aos="fade-down">Let's get Started</h1>
+          </div>
+          <div class="get-started-line">
+            <img
+              src="images/get_started_line.png"
+              style="background: none; box-shadow: none; border: 0"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="col-md-4 col-sm-4">
+                  <img src="images/get_started_icon1.png" data-aos="flip-left" />
+                  <h2 data-aos="fade-up">Join the waitlist</h2>
+                  <p data-aos="fade-up">Join today to start with your journey</p>
+                  <!-- <div class="curve-line"></div> -->
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <img src="images/get_started_icon2.png" data-aos="flip-left" />
+                  <h2 data-aos="fade-up">Attach your wallet</h2>
+                  <p data-aos="fade-up">
+                    Attach your wallet depending upon your payment partner
+                  </p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <img src="images/get_started_icon3.png" data-aos="flip-left" />
+                  <h2 data-aos="fade-up">Buy your NFTs</h2>
+                  <p data-aos="fade-up">Select your NFTs and get started!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec8">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 data-aos="fade-down">Select By Category</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="cat" data-aos="fade-down">
+                <img src="images/cat-1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="cat" data-aos="fade-up">
+                <img src="images/cat-2.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="cat" data-aos="fade-down">
+                <img src="images/cat-3.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="cat" data-aos="fade-up">
+                <img src="images/cat-4.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <section class="sec10">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 data-aos="fade-down">Our Team</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="team-up" data-aos="fade-down">
+                <img src="images/team-1.png" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team" data-aos="fade-up">
+                <img src="images/team-3.png" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team" data-aos="fade-up">
+                <img src="images/team-4.png" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-up" data-aos="fade-down">
+                <img src="images/team-2.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec11">
+        <div class="row">
+          <div class="col-md-12 social">
+            <!-- <a href="#"><img class="social-discord" src="images/discord.png"/></a> -->
+            <a href="https://www.linkedin.com/company/sherealtherealshe/" target="_blank"><img class="social-discord" src="images/linkedin.png"/></a>
+            <a href="https://www.facebook.com/sherealtherealshe?mibextid=ZbWKwL" target="_blank"><img class="social-facebook" src="images/facebook.png"/></a>
+            <a href="https://twitter.com/theshereal?t=EtZmbGqCNSOJX0o2tzKNDw&s=09" target="_blank"><img class="social-twitter" src="images/twitter.png"/></a>
+            <a href="https://t.me/Shereal_community" target="_blank"><img class="social-telegram" src="images/telegram.png"/></a>
+            <a href="https://www.instagram.com/sherealtherealshe/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img class="social-instagram" src="images/instagram.png"/></a>
+            <a href="https://www.youtube.com/channel/UCkTJApfpIshOSa9-Ua7UKxw" target="_blank"><img class="social-youtube" src="images/youtube.png"/></a>
+          </div>
+          <div class="waveWrapper waveAnimation">
+            <div class="waveWrapperInner bgTop">
+              <div
+                class="wave waveTop"
+                style="
+                  background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png');
+                "
+              ></div>
+            </div>
+            <div class="waveWrapperInner bgMiddle">
+              <div
+                class="wave waveMiddle"
+                style="
+                  background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png');
+                "
+              ></div>
+            </div>
+            <div class="waveWrapperInner bgBottom">
+              <div
+                class="wave waveBottom"
+                style="
+                  background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png');
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="foot">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 data-aos="fade-down">#Biggest NFT Marketplace</h1>
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <form class="foot-form" data-aos="fade-down">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Your Email Address"
+                  />
+                  <button class="foot-btn" type="submit">Subscribe</button>
+                </form>
+              </div>
+            </div>
+            <p>©2022 Shereal. All right reserved</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    
+    
+
+    
+<!-- <script>
+  if (screen && screen.width < 576) {
+    document.write('<script type="module" src="../services/services-mobile.js"><\/script>');
+  }
+</script> -->
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- crousel Script  -->
+<script>
+  /* 
+     // Here goes default configs
+        responsive : {
+            // breakpoint from 0 up
+            0 : {
+                stagePadding: 0,
+                loop: false,
+                responsiveClass: true,
+                dots: false,
+                nav: true,
+                autoHeight: true,
+                items: 1
+            },
+            // breakpoint from 768 up
+            768 : {
+                items: 3
+            }
+        } */
+  $("#owl-carousel").owlCarousel({
+    loop: true,
+    margin: 30,
+    dots: true,
+    nav: true,
+    items: 3,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+      // breakpoint from 0 up
+      0: {
+        stagePadding: 0,
+        loop: false,
+        responsiveClass: true,
+        dots: false,
+        nav: true,
+        autoHeight: true,
+        items: 1,
+      },
+      // breakpoint from 768 up
+      768: {
+        items: 3,
+      },
+    },
+    navText: [
+      `<div class="button arrow-left">
+        <label for="button">
+            <div class="button_inner q">
+                <i class="l fa fa-arrow-left"></i>
+                
+            </div>
+        </label>
+    </div>`,
+      `<div class="button arrow-left">
+        <label for="button">
+            <div class="button_inner q">
+                <i class="l fa fa-arrow-right"></i>
+                
+            </div>
+        </label>
+    </div>`,
+    ],
+  });
+</script>
+<!-- crousel Script  -->
+
+<!-- crousel Script  -->
+<script>
+  $("#owl-carousel2").owlCarousel({
+    loop: true,
+    margin: 30,
+    dots: true,
+    nav: true,
+    items: 3,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+      // breakpoint from 0 up
+      0: {
+        stagePadding: 0,
+        loop: false,
+        responsiveClass: true,
+        dots: false,
+        nav: true,
+        autoHeight: true,
+        items: 1,
+      },
+      // breakpoint from 768 up
+      768: {
+        items: 3,
+      },
+    },
+    navText: [
+      `<div class="button arrow-left">
+        <label for="button">
+            <div class="button_inner q">
+                <i class="ll fa fa-arrow-left"></i>
+                
+            </div>
+        </label>
+    </div>`,
+      `<div class="button arrow-left">
+        <label for="button">
+            <div class="button_inner q">
+                <i class="ll fa fa-arrow-right"></i>
+                
+            </div>
+        </label>
+    </div>`,
+    ],
+  });
+</script>
+<!-- crousel Script  -->
+
+
+<script>
+  AOS.init({
+    // Global settings:
+    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+    startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+    initClassName: "aos-init", // class applied after initialization
+    animatedClassName: "aos-animate", // class applied on animation
+    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+    offset: 120, // offset (in px) from the original trigger point
+    delay: 0, // values from 0 to 3000, with step 50ms
+    duration: 1000, // values from 0 to 3000, with step 50ms
+    easing: "ease", // default easing for AOS animations
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+    anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+  });
+</script>
+<!--get form data-->
+    <script>
+      // function ValidateEmail(email) {
+      //   if (email === null) {
+      //     return false;
+      //   } else if (
+      //     email.split("@")[0].length < 4 &&
+      //     email.split("@").length !== 2
+      //   ) {
+      //     return false;
+      //   } else if (email.split("@").pop().split(".").length !== 2) {
+      //     return false;
+      //   } else {
+      //     return true;
+      //   }
+
+      //   return regx.test(email);
+      // }
+      // function isValid_Mobile_Number(mobile_number) {
+      //   // Regex to check valid
+      //   // mobile_number
+      //   let regex = new RegExp(/(0|91)?[6-9][0-9]{9}/);
+
+      //   // if mobile_number
+      //   // is empty return false
+      //   if (mobile_number == null) {
+      //     return "false";
+      //   } else if (mobile_number.length < 10 && Number(mobile_number) === NaN) {
+      //     alert("mobile number must be 10 digits long and a");
+      //   }
+
+      //   // Return true if the mobile_number
+      //   // matched the ReGex
+      //   if (regex.test(mobile_number) == true) {
+      //     return "true";
+      //   } else {
+      //     return "false";
+      //   }
+      // }
+      const submitBtn = document.getElementById("submit-btn");
+      submitBtn.addEventListener("click", function () {
+        const username = document.getElementById("name-input").value;
+        const designation = document.getElementById("designation-input").value;
+        const mobile = document.getElementById("contact-input").value;
+        let email = document.getElementById("email-input").value;
+        console.log(email);
+
+        const radiobtn1 = document.getElementsByName("inlineRadioOptions");
+        let radioVal = null;
+
+        if (radiobtn1[0].checked === true && radiobtn1[1].checked === false) {
+          radioVal = "Yes!";
+        } else if (
+          radiobtn1[0].checked === false &&
+          radiobtn1[1].checked === true
+        ) {
+          radioVal = "Absolutely!";
+        } else {
+          radioVal = null;
+        }
+        // const radioVal = radiobtn1[0].checked ? "Yes!" : "Absolutely yes!";
+        if (!username || !designation || !mobile || !email || !radioVal) {
+          alert("please enter all values to continue!");
+        }
+        //  else if (!ValidateEmail(email)) {
+        //   alert("please enter valid email");
+        // }
+        // else if (!isValid_Mobile_Number(mobile)) {
+        //   alert("please enter valid mobile number");
+        // } else if (ValidateEmail(email)) {
+        //   alert("please enter valid email!");
+        // }
+        else {
+          const data = { username, designation, mobile, email, radioVal };
+          fetch("http://188.166.176.89:4002/user/getformdata", {
+            method: "POST", // or 'PUT'
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              console.log("Success:", data);
+              alert(data?.error || data.message);
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              alert("something went wrong!");
+            });
+        }
+      });
+    </script>
+
+
+</body>
+</html>
