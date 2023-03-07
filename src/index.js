@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { gsap } from 'gsap';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { DRACOLoader } from 'three/examples/jsm/loaders/dracoloader.js';
+// import { DRACOLoader } from 'three/examples/jsm/loaders/dracoloader.js';
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment';
 import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
@@ -87,8 +87,8 @@ let smokeParticles = [];
 var house2, house,gamemodel,gamemodel2,gamemodel3,nft1,gallery, gamemodel4,dress1,dress2,dress3, dancestage, pilgrimagemodel,dirLight1,dirLight2,PointLight,PointLight2,PointLight2pilgrimage;
 var mixer, mixer2, mixer3, mixer4, mixer5;
 const clock = new THREE.Clock();
-const dracoLoader = new DRACOLoader();
-dracoLoader.setDecoderPath('https://threejs.org/examples/js/libs/draco/gltf/');
+// const dracoLoader = new DRACOLoader();
+// dracoLoader.setDecoderPath('https://threejs.org/examples/js/libs/draco/gltf/');
 
 
 
@@ -138,7 +138,7 @@ scene.add(PointLight3game);
 //Load Models  //Load Models  //Load Models  //Load Models  //Load Models  //Load Models  //Load Models  //Load Models  //Load Models  //Load Models  //Load Models  
 
 const gamemodelloader = new GLTFLoader();
-	gamemodelloader.setDRACOLoader(dracoLoader);
+	// gamemodelloader.setDRACOLoader(dracoLoader);
 	gamemodelloader.load("../models/aura__fortnite_item_shop_skin.glb", function (gltf) {
 	scene.add(gltf.scene);
 	gamemodel = gltf.scene;
